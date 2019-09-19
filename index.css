@@ -4,7 +4,16 @@
 }
 
 
+body {
+  font-family: Arial;
+}
+
 .size-nine {
   font-family: Arial;
   font-size: 9pt;
+}
+
+.rowattr {
+  vertical-align: top;
+  height: 40px;
 }

@@ -6,31 +6,54 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <table border="1" cellspacing="0" cellpadding="2" width="594px" height="200px" class="size-nine">
+        <!-- таблица банковских реквизитов получателя -->
+        <table border="1" style="border-collapse: collapse" cellspacing="0" cellpadding="2" width="100%" height="110px" class="size-nine" table-layout="fixed">
             <tbody>
-                <tr>
-                    <td colspan="2" rowspan="2" width="55%">БанкПолучателяПредставление</td>
+                <tr height="15px">
+                    <td colspan="2" rowspan="2" width="55%" style="vertical-align: top; border-bottom: none; border-collapse: collapse">БанкПолучателяПредставление</td>
                     <td width="10%">БИК</td>
-                    <td>БИКБанкаПолучателя</td>
+                    <td style="border-bottom: none">БИКБанкаПолучателя</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">Сч. №</td>
-                    <td rowspan="2">СчетБанкаПолучателяПредставление</td>
+                    <td rowspan="2" style="vertical-align: top">Сч. №</td>
+                    <td rowspan="2" style="vertical-align: top; border-top: none">СчетБанкаПолучателяПредставление</td>
                 </tr>
                 <tr>
-                    <td colspan="2">Банк получателя</td>
+                    <td colspan="2" style="font-size: 8pt; vertical-align: bottom; border-top: none">Банк получателя</td>
                 </tr>
-                <tr>
+                <tr  height="15px">
                     <td>ИНН ИННПолучателя</td>
                     <td>КПП КПППолучателя</td>
-                    <td rowspan="3">Сч. №</td>
-                    <td rowspan="3">СчетПолучателяПредставление</td>
+                    <td rowspan="3" style="vertical-align: top">Сч. №</td>
+                    <td rowspan="3" style="vertical-align: top">СчетПолучателяПредставление</td>
                 </tr>
                 <tr>
-                    <td colspan="2">ПредставлениеПолучателя</td>
+                    <td colspan="2" style="vertical-align: top; border-bottom: none">ПредставлениеПолучателя</td>
                 </tr>
                 <tr>
-                    <td colspan="2">Получатель</td>
+                    <td colspan="2" style="font-size: 8pt; vertical-align: bottom; border-top: none">Получатель</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- номер и дата счета -->
+        <div style="margin-top: 40px; font-size: 14pt; font-weight: bold">Счет на оплату № 1 от 2 сентября 2013 г.</div>
+        <hr color="black" noshade>
+
+        <!-- данные поставщика и покупателя -->
+        <table width="100%" height="110px">
+            <tbody>
+                <tr class="rowattr">
+                    <td width="10%">Поставщик:</td>
+                    <td>ПредставлениеПоставщика</td>
+                </tr>
+                <tr class="rowattr">
+                    <td>Покупатель:</td>
+                    <td>ПредставлениеПокупателя</td>
+                </tr>
+                <tr class="rowattr">
+                    <td>Основание:</td>
+                    <td>Основание</td>
                 </tr>
             </tbody>
         </table>
