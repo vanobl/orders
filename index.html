@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Счёт на оплату</title>
-    <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-    <section id="proba">
-      Привет <strong>мир</strong>!
-    </section>
-    <section>
-      Привет мир!
-    </section>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>Счёт на оплату</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <table border="1" cellspacing="0" cellpadding="2" width="594px" height="200px" class="size-nine">
+            <tbody>
+                <tr>
+                    <td colspan="2" rowspan="2" width="55%">БанкПолучателяПредставление</td>
+                    <td width="10%">БИК</td>
+                    <td>БИКБанкаПолучателя</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Сч. №</td>
+                    <td rowspan="2">СчетБанкаПолучателяПредставление</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Банк получателя</td>
+                </tr>
+                <tr>
+                    <td>ИНН ИННПолучателя</td>
+                    <td>КПП КПППолучателя</td>
+                    <td rowspan="3">Сч. №</td>
+                    <td rowspan="3">СчетПолучателяПредставление</td>
+                </tr>
+                <tr>
+                    <td colspan="2">ПредставлениеПолучателя</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Получатель</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
 </html>
